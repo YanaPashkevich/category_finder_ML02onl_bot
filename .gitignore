@@ -5,7 +5,8 @@ __pycache__/
 *.pyc
 
 # Модели и данные (слишком большие для git)
-models/*.joblib
-models/labels.json
-models/seen_titles.json
+# Раскомментируйте, если НЕ используете Git LFS:
+# models/*.joblib
+# models/labels.json
+# models/seen_titles.json
 data/raw/*.csv
