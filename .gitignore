@@ -3,3 +3,9 @@
 venv/
 __pycache__/
 *.pyc
+
+# Модели и данные (слишком большие для git)
+models/*.joblib
+models/labels.json
+models/seen_titles.json
+data/raw/*.csv
