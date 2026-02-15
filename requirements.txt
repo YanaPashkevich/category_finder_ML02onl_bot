@@ -1,0 +1,20 @@
+# Данные и ML (из ноутбука)
+pandas>=2.3.0
+numpy>=2.4.0
+scikit-learn>=1.8.0
+matplotlib>=3.10.0
+joblib>=1.5.0
+scipy>=1.16.0
+
+# Telegram-бот
+python-telegram-bot>=22.6
+python-dotenv>=1.2.0
+
+# Зависимости python-telegram-bot
+httpx>=0.28.0,<0.29
+httpcore>=1.0.0,<2.0
+anyio>=4.12.0
+h11>=0.16.0
+certifi>=2026.1.0
+idna>=3.11
+typing-extensions>=4.15.0

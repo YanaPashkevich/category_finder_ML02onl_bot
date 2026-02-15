@@ -1,0 +1,69 @@
+{
+  "seed": 42,
+  "split": {
+    "test_size": 0.1,
+    "val_size": 0.1
+  },
+  "baseline": {
+    "val": {
+      "accuracy": 0.9925971622455274,
+      "macro_f1": 0.9546326324674991,
+      "weighted_f1": 0.9924384213758086,
+      "top3_acc": 0.9983806292412092
+    },
+    "test": {
+      "accuracy": 0.9929832677924281,
+      "macro_f1": 0.9877835857597891,
+      "weighted_f1": 0.9929723404027617,
+      "top3_acc": 0.9989205027372966
+    },
+    "config": {
+      "word_min_df": 2,
+      "word_ngram_max": 2,
+      "char_min_df": 2,
+      "char_ngram_min": 3,
+      "char_ngram_max": 5,
+      "C": 2.0,
+      "calibrate": true,
+      "calibration_cv": 3
+    }
+  },
+  "final": {
+    "val": {
+      "accuracy": 0.993059839605182,
+      "macro_f1": 0.9547867309777148,
+      "weighted_f1": 0.9929028742754381,
+      "top3_acc": 0.9983806292412092
+    },
+    "test": {
+      "accuracy": 0.9935230164237798,
+      "macro_f1": 0.9879964635871326,
+      "weighted_f1": 0.9935121591124454,
+      "top3_acc": 0.9989205027372966
+    },
+    "config": {
+      "word_min_df": 2,
+      "word_ngram_max": 2,
+      "char_min_df": 2,
+      "char_ngram_min": 3,
+      "char_ngram_max": 5,
+      "C": 4.0,
+      "calibrate": true,
+      "calibration_cv": 3
+    },
+    "best_C": 4.0,
+    "best_C_metrics": {
+      "C": 4.0,
+      "accuracy": 0.993059839605182,
+      "macro_f1": 0.9547867309777148,
+      "weighted_f1": 0.9929028742754381,
+      "top3_acc": 0.9983806292412092
+    }
+  },
+  "rows": {
+    "train": 103744,
+    "val": 12968,
+    "test": 12969
+  },
+  "categories": 58
+}
